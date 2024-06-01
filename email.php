@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Email address where you want to receive messages
-    $to = "najah_alassadi@yahoo.com";
+    $to = "rydalmerefamilydaycare@gmail.com";
 
     // Email headers
     $headers = "From: $name <$email>";
