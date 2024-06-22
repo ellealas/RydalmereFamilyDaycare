@@ -1,5 +1,8 @@
 body {
-  font-family: 'serif', sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   background-color: #FFF5F3;
 }
 
@@ -46,12 +49,13 @@ body {
   display: inline-block;
   padding: 10px 25px;
   border-radius: 10px;
-  font-size: 12px;
   background-color: #ff754e;
   color: #ffffff;
-  font-weight: 400;
   transition: all 0.3s ease 0s;
-  font-weight: bold;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* .hero_section .call_to-btn {} */
@@ -87,7 +91,10 @@ body {
 
 .main-heading {
   color: #ffffff;
-  font-weight: bold;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   text-align: center;
 }
 
@@ -95,7 +102,10 @@ body {
 
 .header_section {
   padding-top: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .sub_page .header_section {
@@ -110,7 +120,10 @@ nav.navbar.navbar-expand-lg {
   padding: 10px 20px;
   color: #FE5D37;
   text-align: center;
-  font-weight: bold;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   transition: transform 0.3s; /* Add transition for smooth movement */
 }
 .custom_nav-container .navbar-nav .nav-link:hover {
@@ -186,8 +199,10 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 22px;
-  font-weight: 700;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   color: #FE5D37;
 }
 
@@ -233,19 +248,23 @@ a:focus {
 }
 
 .hero_detail-box h1 {
-  font-size: 60px;
   color: #e95514;
-  font-weight: 600;
   width: 70%;
-  font-weight: bold;
   padding-top: 95px;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
 .hero_detail-box p {
   margin-top: 20px;
   margin-bottom: 35px;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -261,12 +280,18 @@ a:focus {
 }
 
 .common_style h3 {
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   color: #ff754e;
 }
 
 .common_style p {
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   color: #ff754e;
   margin: 30px 0 50px 0;
 }
@@ -281,6 +306,10 @@ a:focus {
 /* about section */
 .about_section {
   text-align: right;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .about_section a {
@@ -305,10 +334,9 @@ a:focus {
 }
 
 .light_text {
-  font-weight: lighter;
-  /* Or adjust color: */
-  /* color: #999; */
-  font-size: smaller;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -323,6 +351,10 @@ a:focus {
 .why_section a {
   background-color: #ff754e;
   color: #ffffff;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* end why section */
@@ -337,19 +369,31 @@ a:focus {
 
 #determine-heading {
   color: #ff754e;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 #why-heading {
   color: #ff754e;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 #service-hours-heading {
   color: #ff754e;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 p {
   color: #ff754e;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -359,17 +403,27 @@ p {
 .client_section h2,
 .client_section h5,
 .client_section p {
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .client_section h2 {
   text-align: center;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
 .client_section h5 {
-  font-size: 24px;
   color: #ffffff;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .client_section .row {
@@ -461,7 +515,10 @@ p {
 
 .contact_section {
   padding: 75px 45px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .contact_section .row {
@@ -484,11 +541,13 @@ p {
   border: none;
   background-color: #c2411a;
   color: #fff;
-  font-size: 15px;
   padding: 15px 45px;
   border-radius: 12.5px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .contact_img-box {
@@ -503,11 +562,12 @@ p {
 }
 
 .contact_section h2 {
-  font-size: 26px;
   color: #ffffff;
-  font-weight: 600;
-  font-family: 'Raleway', sans-serif;
   margin-bottom: 35px;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 textarea {
@@ -555,13 +615,15 @@ body {
 
 /* info section */
 .info_section {
-  background-color: #FFF5F3;
+  /* background-color: #FFF5F3; */
   color: #FE5D37;
-  font-family: 'Poppins', sans-serif;
   position: relative;
   top: 100px;
   padding: 10px 0;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .info_logo-box {
@@ -570,7 +632,10 @@ body {
 }
 
 .info_logo-box h2 {
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   padding: 5px 7px;
   border-bottom: 1.5px solid #ffffff;
 }
@@ -582,10 +647,18 @@ body {
 .info_section ul li {
   list-style-type: none;
   margin: 3px 0;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .info_section ul li a {
   color: #ffffff;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .info_section ul li a:hover {
@@ -594,8 +667,10 @@ body {
 
 .info_section h5 {
   margin-bottom: 12px;
-  font-size: 18px;
-  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -617,7 +692,10 @@ body {
   color: #fff;
   padding: 8px 30px;
   margin-top: 15px;
-  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -640,18 +718,14 @@ body {
 
 /* end info section */
 
-/* footer section*/
-
-.footer_section {
-  background-color: #a63711;
-  padding: 20px 15px;
-  font-family: 'Poppins', sans-serif;
-}
-
 .footer_section p {
   color: #ffffff;
   margin: 0;
   text-align: center;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .footer_section a {
@@ -731,7 +805,7 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 95%;
+  height: 10%;
   background-size: 100% 100%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -740,3 +814,32 @@ body {
 
 
 
+#form-floating {
+  width: 100%; /* w-full */
+  padding: 0.5rem 0.75rem; /* py-2 px-3 */
+  placeholder-color: #D1D5DB; /* placeholder-gray-300 */
+  border: 1px solid #D1D5DB; /* border border-gray-300 */
+  border-radius: 0.375rem; /* rounded-md */
+}
+
+#form-floating:focus {
+  outline: none; /* focus:outline-none */
+  ring: 3px; /* focus:ring */
+  ring-color: #EBF4FF; /* focus:ring-indigo-100 */
+  border-color: #A3BFFA; /* focus:border-indigo-300 */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  #form-floating {
+      background-color: #374151; /* dark:bg-gray-700 */
+      color: white; /* dark:text-white */
+      placeholder-color: #6B7280; /* dark:placeholder-gray-500 */
+      border-color: #4B5563; /* dark:border-gray-600 */
+  }
+
+  #form-floating:focus {
+      ring-color: #1F2937; /* dark:focus:ring-gray-900 */
+      border-color: #6B7280; /* dark:focus:border-gray-500 */
+  }
+}

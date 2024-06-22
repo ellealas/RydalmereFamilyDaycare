@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   
   <img src="images/wave3.png" alt="" class="page-background">
-  <title>Najah's Family Daycare</title>
+  <title>Rydalmere Family Daycare</title>
 
 
 
@@ -34,6 +34,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <link rel="icon" href="images/favicon1.png" type="image/png">
 
 
 </head>
@@ -46,7 +47,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-                Najah's Family Daycare
+                Rydalmere Family Daycare
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -87,29 +88,35 @@
   
 <!-- start form-->
 <div class="container form-container">
-  <form>
+  <form method="POST" id="form">
+
+    <input type="hidden" name="access_key" value="c40af469-c24a-4955-afc2-5c45b052396c">
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
     <div class="row g-3">
       <div class="col-sm-6">
         <div class="form-floating">
-          <input type="text" class="form-control border-0" id="gname" placeholder="Enter Guardian Name">
+          <input type="text" name="Guardian Name" class="form-control border-0" id="gname" placeholder="Enter Guardian Name" required>
           <label for="gname"></label>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="form-floating">
-          <input type="email" class="form-control border-0" id="gmail" placeholder="Enter Guardian Email">
+          <input type="email" name="Email" class="form-control border-0" id="gmail" placeholder="Enter Guardian Email" required>
           <label for="gmail"></label>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="form-floating">
-          <input type="text" class="form-control border-0" id="cname" placeholder="Enter Child Name">
+          <input type="text" name="Child Name" class="form-control border-0" id="cname" placeholder="Enter Child Name" required>
           <label for="cname"></label>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="form-floating">
-          <input type="text" class="form-control border-0" id="cage" placeholder="Enter Child Age">
+          <input type="text" name="Child Age" class="form-control border-0" id="cage" placeholder="Enter Child Age" required>
           <label for="cage"></label>
         </div>
       </div>
@@ -121,8 +128,10 @@
       </div>
       <div class="col-12">
         <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+        <div id="result"></div>
       </div>
     </div>
+    
   </form>
 </div>
 <!-- end form -->
@@ -158,7 +167,7 @@
           <p>
           <ul>
             <li>Phone: +61 415 474 204</li>
-            <li>Email: najah_alassadi@yahoo.com</li>
+            <li>Email: rydalmerefamilydaycare@gmail.com</li>
             <li>Address: 4 Yeramba Place, Rydalmere 2116.</li>
           </ul>
           </p>
@@ -182,6 +191,7 @@
   <img src="images/cloud.png" alt="Cloud Image" class="cloud-image">
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
 
 
 </body>
