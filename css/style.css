@@ -843,3 +843,32 @@ body {
       border-color: #6B7280; /* dark:focus:border-gray-500 */
   }
 }
+
+.result-message {
+  padding: 15px; /* Increased padding for more space */
+  margin-top: 0px; /* Increased margin-top for space above the message */
+  border-radius: 5px;
+  text-align: center; /* Center align text */
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold; /* Bold font */
+  font-size: 1.2rem; /* Larger font size */
+  text-transform: uppercase;
+  color: #333; /* Default text color */
+  position: relative; /* Ensure relative positioning */
+  left: 50%; /* Move element to the right by 50% of its container width */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.result-message.success {
+  color: #4CAF50; /* Green text color for success */
+}
+
+.result-message.error {
+  color: #f44336; /* Red text color for error */
+}
+
+.result-message.waiting {
+  color: #2196F3; /* Blue text color for waiting */
+}
+
+
