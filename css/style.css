@@ -850,7 +850,6 @@ body {
   border-radius: 5px;
   text-align: center; /* Center align text */
   font-family: "Public Sans", sans-serif;
-  font-weight: bold; /* Bold font */
   font-size: 1.2rem; /* Larger font size */
   text-transform: uppercase;
   color: #333; /* Default text color */
@@ -872,3 +871,14 @@ body {
 }
 
 
+.why_img-container img {
+  width: 75%;
+}
+
+.admission_img-container img {
+  width: 55%;
+}
+
+.about_img-container img {
+  width: 80%;
+}
